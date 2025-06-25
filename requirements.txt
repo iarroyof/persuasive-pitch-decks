@@ -1,0 +1,8 @@
+torch
+numpy
+networkx
+transformers
+tqdm
+sentencepiece
+protobuf
+gradio
