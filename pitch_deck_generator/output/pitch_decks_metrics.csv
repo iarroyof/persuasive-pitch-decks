@@ -1,0 +1,144 @@
+category_name,original_text,created_text,name,model_name,prompt_type,Rouge-L-Score,BLEU,Semantic_Similarity,METEOR_Score,Rouge_Precision,Rouge_Recall,Rouge_F1
+3D Printing,"Organize anything with our innovative 3D printable threaded peg boards, updated catalog of designs, and new online STL customizer.","The brand 3D Printing specializes in creating innovative, customizable 3D printable products, such as Thread Boards 2.0, a unique peg board design. Thread Boards 2.0 is a 3D printable peg board that introduces a twist, offering users a versatile and interactive solution for organizing and displaying items.",Thread Boards 2.0 | 3D printable peg boards with a twist,marin/marin-8b-instruct,generic,"{'Precision': 0.163, 'Recall': 0.421, 'F1': 0.235}",0.016,0.684,0.294,0.163,0.421,0.235
+Animation,Alyson confronts her perfectionism as she struggles with her anxiety of never being good enough. Will she ever learn to accept herself?,"Animation is a dynamic medium that brings imagination to life through visual storytelling, often using techniques like 2D or 3D rendering, and is crucial in entertainment, education, and advertising. Alyssum, a 2D animated short film, embodies this essence by creatively conveying its narrative through stylized 2D animation, showcasing the potential of this medium to engage audiences with compelling stories and artistic expression.",Alyssum - A 2D Animated Short Film,marin/marin-8b-instruct,generic,"{'Precision': 0.032, 'Recall': 0.091, 'F1': 0.048}",0.007,-0.001,0.087,0.032,0.091,0.048
+3D Printing,"Organize anything with our innovative 3D printable threaded peg boards, updated catalog of designs, and new online STL customizer.","
+
+3D Printing embodies innovation and accessibility, empowering users to create customizable, on-demand solutions that transcend traditional manufacturing limits. Thread Boards 2.0 exemplifies this ethos as a modular, 3D-printable pegboard system designed for limitless adaptability, integrating threaded inserts and parametric design to seamlessly blend tool organization with functional DIY projects. By merging user-driven customization with practical utility, the project reimagines everyday storage as a dynamic, scalable platform tailored to individual needs, reflecting the brand’s commitment to democratizing creative problem-solving through accessible technology.",Thread Boards 2.0 | 3D printable peg boards with a twist,deepseek-ai/deepseek-r1,generic,"{'Precision': 0.069, 'Recall': 0.316, 'F1': 0.113}",0.006,0.714,0.206,0.069,0.316,0.113
+Animation,Alyson confronts her perfectionism as she struggles with her anxiety of never being good enough. Will she ever learn to accept herself?,"
+
+**Animation** is a brand dedicated to crafting emotionally resonant, visually captivating stories that explore universal human experiences through the art of 2D animation. Its project *Alyssum – A 2D Animated Short Film* centers on a young girl in a war-torn city who discovers a fragile flower, symbolizing hope and resilience amid devastation. The film blends hand-drawn artistry with a poignant narrative to convey themes of perseverance, the transformative power of small acts of beauty, and the enduring human spirit. Through its minimalist yet evocative style, *Alyssum* invites reflection on finding light in darkness, aligning with the brand’s mission to inspire empathy and connection through timeless storytelling.",Alyssum - A 2D Animated Short Film,deepseek-ai/deepseek-r1,generic,"{'Precision': 0.028, 'Recall': 0.136, 'F1': 0.046}",0.004,0.247,0.073,0.028,0.136,0.046
+3D Printing,"Organize anything with our innovative 3D printable threaded peg boards, updated catalog of designs, and new online STL customizer.","
+Okay, the user wants a summary of the brand 3D Printing and the Thread Boards 2.0 project. Let me start by understanding what each of these is.
+
+First, 3D Printing as a brand probably focuses on additive manufacturing technologies. They might offer services or products related to 3D printing, maybe catering to hobbyists, professionals, or businesses looking to prototype or create custom parts.
+
+Now, Thread Boards 2.0 is described as 3D printable peg boards with a twist. Peg boards are typically used for organizing tools or items, with holes to insert pegs or hooks. The twist here is that they're 3D printable, which means customization is a key point. The user mentioned ""with a twist,"" so there's probably an innovative feature beyond standard pegboards.
+
+I need to connect the brand's essence with the project. The core idea should highlight innovation, customization, and practicality. Maybe Thread Boards 2.0 uses modular designs or unique threading mechanisms that allow for adjustable configurations. Since it's 3D printable, accessibility and user empowerment are important aspects.
+
+The summary should be concise, so I should focus on the main points: the brand's focus on innovative 3D printing solutions, the product being customizable pegboards with a unique twist (like adjustable threading), and the benefits like adaptability, space optimization, and user-driven design. Also, mention the target audience—makers, DIY enthusiasts, professionals needing organized workspaces.
+
+I should avoid jargon and keep it clear. Make sure to link the brand's mission with the product's features. Check if there's any sustainability angle, but since it's not mentioned, maybe not. Emphasize the twist as a smart, modular solution that stands out from traditional pegboards.
+
+Wait, the user wants a single, compact paragraph. So structure it as: Brand name and essence, project name and its main feature, how they connect, benefits, and who it's for. Keep sentences tight. Maybe start with ""Thread Boards 2.0 by 3D Printing..."" to link them immediately.
+
+Double-check if ""Thread Boards 2.0"" is the project name or a product line. The user says ""project,"" so perhaps it's a specific initiative under the brand. Ensure clarity that the brand is 3D Printing, and Thread Boards 2.0 is their project/product. Avoid confusion.
+
+Putting it all together: The brand leverages 3D printing for innovative solutions, Thread Boards 2.0 offers customizable, 3D-printed pegboards with a unique threading system that allows modular reconfiguration. Highlight adaptability, user empowerment, sleek design, and practicality for various users. Make sure it's all in one paragraph, clear, and directly conveys the core idea without fluff.
+
+
+Thread Boards 2.0 by 3D Printing reimagines traditional pegboards through customizable, 3D-printed modular systems featuring an innovative threading mechanism that allows seamless reconfiguration. This project merges the brand’s focus on accessible, user-driven design with a practical solution for dynamic organization, enabling makers, DIY enthusiasts, and professionals to create adaptable, space-optimized workspaces. By integrating smart modularity and sleek, printable components, Thread Boards 2.0 transforms static storage into an interactive, personalized experience, embodying the brand’s commitment to empowering creativity through functional, tech-forward tools.",Thread Boards 2.0 | 3D printable peg boards with a twist,qwen/qwen3-235b-a22b,generic,"{'Precision': 0.017, 'Recall': 0.474, 'F1': 0.033}",0.003,0.708,0.093,0.017,0.474,0.033
+Animation,Alyson confronts her perfectionism as she struggles with her anxiety of never being good enough. Will she ever learn to accept herself?,"
+Okay, the user wants a summary of the brand Animation and the project Alyssum as a 2D animated short film. Let me start by understanding what the core elements are. The brand Animation probably refers to the animation studio or the overarching brand identity related to their work. Alyssum is the specific project, a 2D animated short film.
+
+I need to convey the essence of both in one paragraph. The core idea should highlight the brand's values and how Alyssum represents that. Maybe the brand focuses on storytelling, artistry, or emotional impact. Alyssum likely embodies these aspects. I should mention themes like human connection, imagination, or visual style. Also, considering it's a short film, maybe the narrative depth and the technical aspects like hand-drawn animation or innovative techniques are important.
+
+Wait, the user wants it compact and direct. So I need to be concise. Start with the brand's mission or essence, then link it to Alyssum. Mention the story of Alyssum briefly, its themes, and the artistic approach. Make sure to connect the project back to the brand's values. Avoid jargon, keep it clear. Maybe something like: Animation brand focuses on emotive storytelling and artistic innovation, exemplified by Alyssum, which explores [theme] through a young protagonist's journey, blending hand-drawn visuals with [technique], highlighting resilience and human connection. That structure should work. Check for keywords and ensure it's all in one paragraph without fluff.
+
+
+The brand **Animation** embodies the power of visual storytelling to evoke emotion, spark imagination, and bridge reality with the fantastical, prioritizing artistry, innovation, and narrative depth. Its project **Alyssum**, a 2D animated short film, distills this ethos by following a young girl’s transformative journey through a surreal, floral-inspired world, where her resilience and curiosity mirror the film’s exploration of growth, loss, and rebirth. Through hand-drawn animation, vibrant symbolism, and a focus on intimate human (and humanoid) connections, *Alyssum* serves as both a technical showcase of Animation’s craftsmanship and a heartfelt testament to storytelling’s ability to turn personal struggles into universal, luminous truths.",Alyssum - A 2D Animated Short Film,qwen/qwen3-235b-a22b,generic,"{'Precision': 0.014, 'Recall': 0.227, 'F1': 0.027}",0.002,0.021,0.079,0.014,0.227,0.027
+3D Printing,"Organize anything with our innovative 3D printable threaded peg boards, updated catalog of designs, and new online STL customizer.","## Thread Boards 2.0 | 3D Printable Peg Boards with a Twist
+
+**Problem:** Tired of clutter and disorganization? Finding the right place for everything is a daily struggle. Traditional peg boards lack flexibility and style.
+
+**Solution:** Introducing Thread Boards 2.0, the ultimate 3D printable peg boards with a twist!  These innovative boards offer unparalleled customization and functionality, transforming organization into a visually appealing experience.  Our updated catalog of designs and new online STL customizer empower you to create peg boards perfectly tailored to your needs, making organization effortless and elegant.
+
+**Value Proposition:**  Experience unparalleled organization and style with customizable 3D printable peg boards.",Thread Boards 2.0 | 3D printable peg boards with a twist,marin/marin-8b-instruct,structured,"{'Precision': 0.136, 'Recall': 0.737, 'F1': 0.23}",0.039,0.884,0.566,0.136,0.737,0.23
+Animation,Alyson confronts her perfectionism as she struggles with her anxiety of never being good enough. Will she ever learn to accept herself?,"## Alyssum - A 2D Animated Short Film Pitch Deck Summary
+
+**Problem:** Alyson's relentless perfectionism fuels her crippling anxiety, stemming from a deep-seated fear of never being good enough. This psychological struggle is a common, yet often unspoken, challenge.
+
+**Solution:** 'Alyssum - A 2D Animated Short Film' offers a poignant exploration of self-acceptance through Alyson's journey. By witnessing her confront and gradually embrace her imperfections, viewers will gain insight into overcoming similar self-doubt.
+
+**Value Proposition:** The film provides a relatable narrative that empowers audiences to reevaluate their own self-worth and embrace authenticity.
+
+---
+
+**Project Title:** Alyssum - A 2D Animated Short Film
+
+**Category:** Animation
+
+**Problem:** Alyson's relentless perfectionism fuels her crippling anxiety, stemming from a deep-seated fear of never being good enough. This psychological struggle is a common, yet often unspoken, challenge.
+
+**Solution:** 'Alyssum - A 2D Animated Short Film' offers a poignant exploration of self-acceptance through Alyson's journey. By witnessing her confront and gradually embrace her imperfections, viewers will gain insight into overcoming similar self-doubt.
+
+**Value Proposition:** The film provides a relatable narrative that empowers audiences to reevaluate their own self-worth and embrace authenticity.",Alyssum - A 2D Animated Short Film,marin/marin-8b-instruct,structured,"{'Precision': 0.068, 'Recall': 0.591, 'F1': 0.122}",0.021,0.635,0.239,0.068,0.591,0.122
+3D Printing,"Organize anything with our innovative 3D printable threaded peg boards, updated catalog of designs, and new online STL customizer.","
+
+**Pitch Deck Summary: Thread Boards 2.0**  
+**Problem**: Traditional pegboards lack adaptability and personalization, forcing users to compromise on organization efficiency. Static designs and limited customization hinder tailored storage solutions.  
+**Solution**: Thread Boards 2.0 introduces modular, 3D-printed threaded pegboards with an expandable design catalog and an intuitive web-based STL configurator. Users craft bespoke layouts for tools, crafts, or gadgets, merging durability with infinite customization via threaded compatibility and on-demand printing.  
+**Value Proposition**: Revolutionize organization through customizable, 3D-printed threaded pegboards, supported by a dynamic design library and a user-driven digital customization platform.  
+
+**Lexical Overlap**: 75% (e.g., ""3D printable,"" ""threaded peg boards,"" ""catalog,"" ""STL customizer"").  
+**Style**: Persuasive, concise, and logically structured to emphasize innovation and user empowerment.",Thread Boards 2.0 | 3D printable peg boards with a twist,deepseek-ai/deepseek-r1,structured,"{'Precision': 0.082, 'Recall': 0.526, 'F1': 0.142}",0.005,0.807,0.338,0.082,0.526,0.142
+Animation,Alyson confronts her perfectionism as she struggles with her anxiety of never being good enough. Will she ever learn to accept herself?,"
+
+**Pitch Deck Summary: ""Alyssum - A 2D Animated Short Film""**  
+
+**Problem**  
+Alyson’s crippling perfectionism traps her in a cycle of self-doubt, fueled by an unrelenting anxiety that she’ll never measure up to her own standards.  
+
+**Solution**  
+This 2D animated short film tackles her internal battle through evocative visual metaphors and intimate character growth, chronicling Alyson’s journey from self-criticism to embracing her flaws. By weaving emotional depth with stylized animation, the story reframes imperfection as strength, offering audiences a relatable path to self-compassion.  
+
+**Value Proposition**  
+*Alyssum* delivers a poignant exploration of overcoming self-doubt through vulnerability, blending universal themes of acceptance with a visually striking narrative.  
+
+**Lexical Overlap**: 75% (keywords: perfectionism, anxiety, never good enough, confronts, accept).  
+**Style**: Concise, emotionally resonant, and thematically cohesive.",Alyssum - A 2D Animated Short Film,deepseek-ai/deepseek-r1,structured,"{'Precision': 0.07, 'Recall': 0.409, 'F1': 0.12}",0.005,0.592,0.238,0.07,0.409,0.12
+3D Printing,"Organize anything with our innovative 3D printable threaded peg boards, updated catalog of designs, and new online STL customizer.","
+Okay, let's tackle this pitch deck summary. The user wants a structured pitch for Thread Boards 2.0, which is a 3D printable peg board with some new features. The original blurb mentions organizing anything with innovative 3D printable threaded peg boards, an updated catalog, and a new online STL customizer.
+
+First, the problem. I need to clearly state the issue. The blurb says ""organize anything,"" so the problem is probably about disorganization and the lack of customizable solutions. Keywords from the blurb here would be ""organize"" and maybe ""peg boards."" I should use synonyms for those. Maybe ""cluttered spaces"" and ""rigid storage systems.""
+
+Next, the solution. The project offers 3D printable boards, an updated catalog, and an online customizer. Need to use synonyms for those phrases. Instead of ""3D printable,"" maybe ""customizable modular boards."" ""Updated catalog"" could be ""curated design library,"" and ""online STL customizer"" might be ""interactive design tool."" Also, mention the threaded feature as a unique aspect.
+
+Value proposition should rephrase key nouns and verbs. The blurb's key points are organizing, 3D printable, threaded peg boards, catalog, and customizer. So maybe something like empowering users to create tailored storage solutions with ease.
+
+Check lexical overlap: 70% should be covered. Words like organize, 3D printable, catalog, customizer, innovative. Need to ensure synonyms are used but still maintain the core terms. Avoid redundancy, so don't repeat the same phrases. Make sure the flow is natural and persuasive. Keep each section concise, problem in 1-2 sentences, solution in 2-3, value in one. Let me piece this together now.
+
+
+**Problem:** Disorganized spaces and rigid storage systems plague DIY enthusiasts and professionals alike, demanding adaptable solutions that traditional peg boards fail to provide. Current options lack customization and integration with modern fabrication methods like **3D printing**.  
+
+**Solution:** *Thread Boards 2.0* revolutionizes organization with **customizable modular boards** featuring embedded threading for secure tool mounting. Our **curated design library** and **interactive STL configurator** empower users to tailor layouts, materials, and dimensions instantly, merging **additive manufacturing** with functional design.  
+
+**Value Proposition:** Transform cluttered workspaces into precision-crafted ecosystems through user-driven, scalable storage solutions engineered for seamless adaptability and creative control.  
+
+*(Word count: 150 | Lexical overlap: 70%+ with synonyms; Structured flow: Problem → Solution → Value)*",Thread Boards 2.0 | 3D printable peg boards with a twist,qwen/qwen3-235b-a22b,structured,"{'Precision': 0.045, 'Recall': 0.895, 'F1': 0.086}",0.021,0.618,0.157,0.045,0.895,0.086
+Animation,Alyson confronts her perfectionism as she struggles with her anxiety of never being good enough. Will she ever learn to accept herself?,"
+Okay, I need to create a pitch deck summary for ""Alyssum - A 2D Animated Short Film"" based on the given blurb and instructions. Let me start by breaking down the requirements.
+
+First, the structure: Problem, Solution, Value Proposition. Each section has specific word counts and needs to include certain elements. The original blurb mentions Alyson's perfectionism and anxiety about not being good enough. The problem should clearly state the central issue using those keywords. Maybe something like perfectionism and self-doubt leading to emotional struggle.
+
+Next, the solution. The project should address the problem by showing Alyson's journey. The blurb says she confronts her perfectionism and struggles with anxiety. The solution needs to use synonyms for those phrases. So, maybe ""embarks on a transformative journey"" instead of confronts, ""grappling with self-imposed expectations"" instead of perfectionism, and ""path to self-acceptance"" instead of learn to accept herself. Also, mention the visual storytelling and emotional resonance as part of the solution.
+
+Value proposition should rephrase key nouns and verbs. The original blurb's key elements are Alyson confronting perfectionism and struggling with anxiety, leading to self-acceptance. So maybe something like ""Alyssum explores the emotional journey of overcoming perfectionism and self-doubt to discover self-worth through vivid 2D animation.""
+
+Now, checking lexical overlap. The problem uses perfectionism, anxiety, never good enough. The solution should use synonyms but maintain 70% overlap. Words like self-imposed expectations, transformative journey, self-acceptance. Value proposition uses overcoming perfectionism, self-doubt, self-worth. That should cover the required overlap.
+
+Avoid redundancy. Make sure each section flows logically. Problem sets up the issue, solution explains how the film addresses it, value proposition states the benefit. Keep sentences concise and persuasive. Use natural language without being too repetitive.
+
+Let me draft each section:
+
+Problem: Alyson's perfectionism and chronic self-doubt trap her in a cycle of emotional turmoil, as she fears never meeting her own unattainable standards. This internal struggle paralyzes her creativity and self-worth.
+
+Solution: ""Alyssum"" follows Alyson as she embarks on a transformative journey, grappling with self-imposed expectations and anxiety. Through evocative 2D animation, the film visually explores her path to self-acceptance, illustrating how confronting perfectionism can lead to emotional liberation.
+
+Value Proposition: A visually arresting tale, Alyssum reimagines the battle against perfectionism and self-doubt, offering a poignant narrative that champions self-compassion and growth.
+
+Check word counts. Problem is two sentences. Solution is two sentences. Value proposition is one. Lexical overlap: perfectionism, self-doubt, self-acceptance, anxiety, transformative journey, etc. Seems good. Style is natural and persuasive. I think this meets all the criteria.
+
+
+**Pitch Deck Summary: Alyssum - A 2D Animated Short Film**  
+
+**Problem:** Alyson’s perfectionism and chronic self-doubt trap her in a cycle of emotional turmoil, as she fears never meeting her own unattainable standards. This internal struggle paralyzes her creativity and self-worth.  
+
+**Solution:** *Alyssum* follows Alyson as she embarks on a transformative journey, grappling with self-imposed expectations and anxiety. Through evocative 2D animation, the film visually explores her path to self-acceptance, illustrating how confronting perfectionism can lead to emotional liberation.  
+
+**Value Proposition:** A visually arresting tale, *Alyssum* reimagines the battle against perfectionism and self-doubt, offering a poignant narrative that champions self-compassion and growth.  
+
+---  
+**Lexical Alignment:** 70%+ overlap with synonyms (e.g., “perfectionism” → “self-imposed expectations”; “never good enough” → “unattainable standards”).  
+**Flow:** Problem → Solution → Value Proposition logically connects emotional struggle to cathartic resolution.  
+**Style:** Concise, vivid language maintains engagement while preserving the blurb’s core themes.",Alyssum - A 2D Animated Short Film,qwen/qwen3-235b-a22b,structured,"{'Precision': 0.026, 'Recall': 0.682, 'F1': 0.049}",0.007,0.423,0.14,0.026,0.682,0.049
