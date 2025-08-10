@@ -17,9 +17,8 @@ Nota: Asegurate de poner en el archivo "generation.py" tu api key de nvidia en e
 2. Ejecuta los siguientes comandos:
 
 ```bash
-conda create -n pitchdeck python=3.10 -y
+conda env create -f environment.yml  
 conda activate pitchdeck
-conda install --file requirements-conda.txt -c conda-forge
 ```
 
 ---
@@ -45,7 +44,7 @@ Una vez configurado el entorno, ejecuta el script principal `main.py` desde la l
 python main.py   --models MODEL1 MODEL2   --temperature 0.7   --top_p 0.9   --max_tokens 512   --num_samples 10   --prompt_type generic structured   --output_filename ./output/pitch_decks_generados.csv
 ```
 
-Los modelos disponibles son: "marin/marin-8b-instruct", "deepseek-ai/deepseek-r1" y "qwen/qwen3-235b-a22b". En dado caso de no especificar ningún modelo se ejecutarán los 3, generando pitch decks con cada uno de ellos. 
+Los modelos disponibles son: "marin/marin-8b-instruct", "deepseek-ai/deepseek-r1", "qwen/qwen3-235b-a22b", "openai/gpt-oss-20b" y "openai/gpt-oss-120b". En dado caso de no especificar ningún modelo se ejecutarán los 3, generando pitch decks con cada uno de ellos. 
 
 ### 🧠 Argumentos explicados
 
