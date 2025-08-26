@@ -6,14 +6,10 @@ from prompts import generic_prompt, structured_prompt
 from models_config import models_config
 import time
 import os
-from dotenv import load_dotenv
-
-load_dotenv()  # Busca automáticamente el archivo .env en la misma carpeta
-
 
 client = OpenAI(
     base_url="https://integrate.api.nvidia.com/v1",
-    api_key= os.getenv("API_KEY")
+    api_key= "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"
 )
 
 def generate(df, models, temperature, top_p, max_tokens, num_samples, prompt_type, max_attempts=15):

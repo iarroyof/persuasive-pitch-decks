@@ -1,0 +1,32 @@
+# Usa una imagen base de Python. Python 3.10 es una opción sólida.
+FROM python:3.12-slim
+
+# Establece el directorio de trabajo dentro del contenedor
+WORKDIR /app
+
+# Copia los archivos de requerimientos de Python.
+# Si aún no tienes un requirements.txt, crea uno.
+COPY requirements.txt ./
+
+# Instala las dependencias. El flag --no-cache-dir ayuda a reducir el tamaño de la imagen.
+RUN pip install --no-cache-dir -r requirements.txt
+
+#    El directorio de datos de NLTK por defecto es /root/nltk_data
+RUN python -c "import nltk; nltk.download('punkt', quiet=True); nltk.download('wordnet', quiet=True); nltk.download('omw-1.4', quiet=True)"
+# 2. Pre-descargar los modelos de Hugging Face.
+#    Esto se hará durante el build, guardando los archivos en la caché de Hugging Face.
+#    Ajusta 'MODEL_NAME_HERE' con el nombre del modelo que tu programa usa.
+#    Para sentence-transformers, el modelo suele ser 'all-MiniLM-L6-v2' u otro similar.
+#    Para transformers, usa el nombre completo del modelo.
+# Descargar el modelo y tokenizer de Hugging Face
+# Esto se hace durante la construcción para que no se descargue en cada ejecución
+RUN python -c "from transformers import AutoTokenizer, AutoModelForSequenceClassification; model_name = 'nishan-chatterjee/multilingual-persuasion-detection-from-text'; AutoTokenizer.from_pretrained(model_name); AutoModelForSequenceClassification.from_pretrained(model_name)"
+
+
+
+# Copia todos los archivos de tu proyecto al directorio /app del contenedor
+COPY . .
+
+# Comando por defecto para ejecutar tu programa.
+# Permite que el usuario sobrescriba los argumentos si lo desea.
+ENTRYPOINT ["python", "main.py"]
