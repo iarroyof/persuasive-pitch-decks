@@ -79,6 +79,10 @@ Supongamos que quieres usar los modelos `marin/marin-8b-instruct` y `qwen/qwen3-
 ```bash
 python main.py   --models marin/marin-8b-instruct qwen/qwen3-235b-a22b   --temperature 0.7   --top_p 0.9   --max_tokens 512   --num_samples 10   --prompt_type generic structured   --output_filename ./output/resultados.csv
 ```
+## Ejemplo de como correr con docker: 
+```
+docker run --rm -it -v ${PWD}/output:/app/output pitchdeck-generator --output_dir /app/output --num_samples 1
+```
 
 ---
 
