@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 import re
-from inference import inference  # inference(text) -> (complete_labels, child_labels)
+from inference import inference
 import matplotlib.pyplot as plt
 from collections import Counter
 
@@ -10,18 +10,22 @@ def clean_created_text(text: str) -> str:
     parts = cleaned.split('---', 1)
     return parts[0].strip()
 
-def classify_and_plot(df, output_csv="output_with_classifications.csv", img_dir="./output/img", grouped_dir="./output/grouped"):
-    # Preparar directorios
+def classify_and_plot(df, output_dir="./output"):
+    # 1. Preparar directorios
+    output_csv_path = os.path.join(output_dir, "output_with_classifications.csv")
+    img_dir = os.path.join(output_dir, "img")
+    grouped_dir = os.path.join(output_dir, "grouped")
+    
     os.makedirs(img_dir, exist_ok=True)
     os.makedirs(grouped_dir, exist_ok=True)
 
-    # Limpiar texto
+    # 2. Limpiar texto
     for col in ["original_text", "created_text"]:
         if col in df.columns:
             df[col] = df[col].astype(str).str.replace(r"\r?\n", " ", regex=True)
     df["created_text"] = df["created_text"].apply(clean_created_text)
 
-    # Clasificación
+    # 3. Clasificación
     def classify_text_with_hierarchy(text: str) -> dict:
         if pd.isna(text) or not isinstance(text, str) or not text.strip():
             return {"complete_hierarchy": [], "child_only": []}
@@ -32,16 +36,16 @@ def classify_and_plot(df, output_csv="output_with_classifications.csv", img_dir=
     df_created = df["created_text"].apply(lambda t: pd.Series(dict(zip(["complete_hierarchy", "child_only"], classify_text_with_hierarchy(t)))))
     print("Clasificación completada.")
 
-    # Renombrar y combinar
+    # 4. Renombrar y combinar para obtener df_final
     df_orig.columns = ["orig_complete_hierarchy", "orig_child_only"]
     df_created.columns = ["created_complete_hierarchy", "created_child_only"]
     df_final = pd.concat([df, df_orig, df_created], axis=1)
 
-    # Guardar CSV completo
-    df_final.to_csv(output_csv, index=False)
-    print(f"Clasificaciones guardadas en {output_csv}")
+    # 5. Guardar CSV completo
+    df_final.to_csv(output_csv_path, index=False)
+    print(f"Clasificaciones guardadas en {output_csv_path}")
 
-    # Guardar agrupados por modelo/prompt
+    # 6. Guardar agrupados por modelo/prompt
     groups = df_final.groupby(["prompt_type", "model_name"])
     for (prompt, model), group in groups:
         subset = group[["category_name", "prompt_type", "model_name", "created_text", "created_complete_hierarchy", "created_child_only"]]
@@ -50,7 +54,7 @@ def classify_and_plot(df, output_csv="output_with_classifications.csv", img_dir=
         filename = f"created_classifications_{prompt_safe}__{model_safe}.csv"
         subset.to_csv(os.path.join(grouped_dir, filename), index=False)
 
-    # Histograma
+    # 7. Histograma
     def generate_histograms(df, col, label_type):
         exploded = df.explode(col)
         exploded[col] = exploded[col].fillna("")
